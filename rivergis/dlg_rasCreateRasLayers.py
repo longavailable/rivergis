@@ -59,7 +59,8 @@ class DlgCreateRasLayers(QDialog):
             (self.ui.leveeChbox, heco.LeveePoints),
             (self.ui.storageAreasChbox, heco.StorageAreas),
             (self.ui.saConnectionsChbox, heco.SAConnections),
-            (self.ui.xsCutLinesChbox, heco.XSCutLines)]
+            (self.ui.xsCutLinesChbox, heco.XSCutLines),
+            (self.ui.xsSurfaceChbox, heco.XSSurface),]
 
         self.tables.sort(key=lambda x: x[1]().order)
 

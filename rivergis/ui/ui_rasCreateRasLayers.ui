@@ -16,6 +16,13 @@
   <layout class="QGridLayout" name="gridLayout">
    <item row="2" column="0">
     <layout class="QGridLayout" name="gridLayout_2">
+     <item row="11" column="0">
+      <widget class="QCheckBox" name="xsSurfaceChbox">
+       <property name="text">
+        <string>XS Surface</string>
+       </property>
+      </widget>
+     </item>
      <item row="10" column="0">
       <widget class="QCheckBox" name="landuseChbox">
        <property name="text">
